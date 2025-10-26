@@ -33,8 +33,8 @@
             this.lblContainer = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.txtContent = new System.Windows.Forms.TextBox();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,51 +56,53 @@
             this.btnStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStart.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.btnStart.Location = new System.Drawing.Point(171, 105);
+            this.btnStart.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Bold);
+            this.btnStart.Location = new System.Drawing.Point(454, 636);
             this.btnStart.Name = "btnStart";
             this.btnStart.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnStart.Size = new System.Drawing.Size(87, 34);
+            this.btnStart.Size = new System.Drawing.Size(174, 58);
             this.btnStart.TabIndex = 1;
             this.btnStart.Text = "ابدأ";
-            this.btnStart.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.txtContent);
-            this.panel1.Controls.Add(this.btnStart);
             this.panel1.Controls.Add(this.lblContainer);
-            this.panel1.Location = new System.Drawing.Point(188, 163);
+            this.panel1.Location = new System.Drawing.Point(323, 461);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(436, 183);
             this.panel1.TabIndex = 3;
+            // 
+            // txtContent
+            // 
+            this.txtContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.txtContent.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtContent.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold);
+            this.txtContent.Location = new System.Drawing.Point(49, 51);
+            this.txtContent.Multiline = true;
+            this.txtContent.Name = "txtContent";
+            this.txtContent.ReadOnly = true;
+            this.txtContent.Size = new System.Drawing.Size(330, 91);
+            this.txtContent.TabIndex = 2;
+            this.txtContent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // notifyIcon1
             // 
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             // 
-            // txtContent
-            // 
-            this.txtContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.txtContent.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtContent.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.txtContent.Location = new System.Drawing.Point(49, 24);
-            this.txtContent.Multiline = true;
-            this.txtContent.Name = "txtContent";
-            this.txtContent.ReadOnly = true;
-            this.txtContent.Size = new System.Drawing.Size(330, 65);
-            this.txtContent.TabIndex = 2;
-            this.txtContent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(211)))), ((int)(((byte)(112)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::Simple_Islamic_Project.Properties.Resources.Whisk_f12ed950887e299bf364e6f5cec04191dr;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1057, 711);
+            this.Controls.Add(this.btnStart);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

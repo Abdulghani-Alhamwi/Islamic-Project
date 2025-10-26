@@ -102,10 +102,7 @@ namespace Simple_Islamic_Project
                         break;
                 }
             }
-            else if (_Counter == 33&&_Types == _entypes.لا_إله_إلا_الله)
-            {
-                _EndProgram();
-            }
+           
         }
 
         void _GetVisualContent()
@@ -117,7 +114,7 @@ namespace Simple_Islamic_Project
                     break;
 
                 case _entypes.الحمدلله:
-                    _ContentModifier(_Counter + " _  الحمد الله");
+                    _ContentModifier(_Counter + " _  الحمد لله");
                     break;
 
                 case _entypes.الله_أكبر:
@@ -125,7 +122,9 @@ namespace Simple_Islamic_Project
                     break;
 
                 case _entypes.لا_إله_إلا_الله:
+                    _ChangeContentColor();
                     _ContentModifier("لا إله إلا الله وحده لا شريك له  له الملك و له الحمد و هو على كل شيء قدير");
+                    _EndProgram();
                     break;
 
             }
