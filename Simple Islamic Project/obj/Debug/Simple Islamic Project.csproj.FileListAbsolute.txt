@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\bin\Debug\Simple Islamic Project.exe.config
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\bin\Debug\Simple Islamic Project.exe
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\bin\Debug\Simple Islamic Project.pdb
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\obj\Debug\Simple Islamic Project.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\obj\Debug\Simple_Islamic_Project.Form1.resources
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\obj\Debug\Simple_Islamic_Project.Properties.Resources.resources
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\obj\Debug\Simple Islamic Project.csproj.GenerateResource.cache
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\obj\Debug\Simple Islamic Project.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\obj\Debug\Simple Islamic Project.exe
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\obj\Debug\Simple Islamic Project.pdb
+C:\Users\User\Desktop\My Projects\Simple Islamic Project\Simple Islamic Project\obj\Debug\Simple Islamic Project.exe.config
